@@ -1,0 +1,30 @@
+# Ignore build artifacts
+build/
+dist/
+__pycache__/
+*.spec
+
+# Ignore executables and drivers
+*.exe
+chromedriver.exe
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore temporary files and system files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore VSCode and IDE settings
+.vscode/
+.idea/
+
+# Ignore generated CSV files
+*.csv
